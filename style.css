@@ -80,3 +80,38 @@
 .light{
     background-color: #f3f4f6;
 }
+
+@media only screen and (max-width:768px) {
+    .sidebar{
+        width: 50px;
+    }
+    .brand,.list-item-text{
+        display: none;
+    }
+    .sidebar-buttom{
+        flex-direction: column;
+      
+    }
+    .color-box{
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+}
+
+.sidebar.night{
+background-color: #312e81;
+color: #b4bbc7;
+}
+.list-item.active.night{
+background-color: 4338ca;
+}
+
+.sidebar.light{
+    background-color: #f3f4f6;
+    color: #111827;
+    }
+.list-item.active.light{
+    background-color: d1d5db;
+    color: #111827;
+    }
+    
